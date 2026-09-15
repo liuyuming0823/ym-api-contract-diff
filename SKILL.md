@@ -1,6 +1,6 @@
 ---
-name: api-contract-diff
-slug: api-contract-diff
+name: ym-api-contract-diff
+slug: ym-api-contract-diff
 display_name: 接口字段契约检查
 display_name_en: API Contract Diff
 displayName: 接口字段契约检查
@@ -21,7 +21,7 @@ trigger:
 agent_created: true
 ---
 
-# 接口字段契约检查 (api-contract-diff)
+# 接口字段契约检查 (ym-api-contract-diff)
 
 把前后端接口约定一次性比对清楚：缺字段、多字段、类型不一致、必填与空值口径不同，并单独标出 Long 精度、日期格式这类一上线就埋雷的高风险项。核心价值是「不靠人肉一行行对字段」，也不给出「两边都差不多」的含糊结论。
 
